@@ -1,0 +1,87 @@
+
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #0a1a2f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00bfff;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d') no-repeat center center/cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.section {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  margin: 1rem 0;
+}
+
+.section:nth-child(even) {
+  background-color: #e8f1f8;
+}
+
+.players {
+  list-style: none;
+  padding-left: 0;
+}
+
+.players li {
+  padding: 0.5rem 0;
+}
+
+footer {
+  background-color: #0a1a2f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
